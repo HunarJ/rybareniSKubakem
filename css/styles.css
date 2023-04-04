@@ -63,10 +63,12 @@ nav {
 .main-section h3{
     font-size: 4rem;
     font-weight: 700;
+    -webkit-text-stroke: 3px black;
 }
 .main-section h6{
   font-size: 2.5rem;
   font-weight: 700;
+  -webkit-text-stroke: 1.5px black;
 }
 .welcome-part{
     display: flex;
@@ -79,7 +81,7 @@ nav {
 .more-button{
   font-weight: bold;
   font-size: 2.25rem;
-  padding: 20px;
+  padding: 10px 20px;
   border-radius: 20px;
 }
 .more-button:hover{
@@ -95,13 +97,18 @@ nav {
 /* About me section */
 .about-me-section{
   margin: 150px 50px;
-  max-height: 100vh;
+  max-height: 100%;
 }
 #about-img-1{
-  max-width: 100%;
-  height: 100%;
+  max-height: 400px;
+  width: 100%;
   border-radius: 150px;
 }
+
+/* carousel section */
+/* .carousel-img{
+  max-height: 450px;
+} */
 
 /* Card section */
 .cards-section{
@@ -113,9 +120,14 @@ nav {
   flex-direction: row;
   justify-content: center;
 }
+.card-img-top{
+  height: 50%;
+}
 
 /* Coupon section */
-
+.hire-me-section{
+  margin: 50px 30px;
+}
 #coupon-img{
   width: 100%;
   border-radius: 15px;
@@ -132,6 +144,7 @@ nav {
 }
 
 .form-section-container{
+  background-color: white;
   width: 800px;
   max-width: 70%;
  border-style: solid;

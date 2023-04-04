@@ -10,3 +10,12 @@ document.addEventListener('click', function(e){
 
 //Navigation scroll down feature
 
+//Carousel
+let carousel = new bootstrap.Carousel('#myCarousel')
+
+const myCarouselElement = document.querySelector('#myCarousel')
+
+carousel = new bootstrap.Carousel(myCarouselElement, {
+  interval: 2000,
+  touch: false
+})

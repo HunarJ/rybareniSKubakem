@@ -39,7 +39,7 @@
   <section class="body-of-page">
 
     <!-- main section start -->
-    <section class="main-section" id="home">
+    <div class="main-section" id="home">
       <div class="container main-container my-5 py-5">
         <div class="row mx-0">
           <div class="col-lg-6 py-5 welcome-part">
@@ -51,20 +51,20 @@
             <a href="#about">
             <input
               type="button"
-              value="ZJISTI VÍCE!"
+              value="Více.."
               class="btn mt-5 btn-danger btn-lg more-button"
             /></a>
           </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <!-- about me section -->
-    <section class="about-me-section" id="about">
+    <div class="about-me-section" id="about">
       <div class="container">
         <div class="row my-5">
           <div class="col-md-6 px-5 py-5">
-            <h3>Ahoj já jsem Kubák</h3>
+            <h1>Ahoj já jsem Kubák</h1>
             <br>
             <p>
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam quis
@@ -118,8 +118,39 @@
             </p>
           </div>
         </div>
+        <div class="row d-flex justify-content-center" id="catches">
+        <div class="col-8">
+        <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/carousel/uploads-carousel1.jpeg" class="d-block w-100 carousel-img" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel/uploads-carousel2.jpeg" class="d-block w-100 carousel-img" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel/uploads-carousel3.jpeg" class="d-block w-100 carousel-img" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel/uploads-carousel4.jpeg" class="d-block w-100 carousel-img" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="images/carousel/uploads-carousel5.jpeg" class="d-block w-100 carousel-img" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
       </div>
-    </section>
+    </div>
+      </div>
+    </div>
 
     <hr>
 
@@ -127,13 +158,44 @@
 
     <!-- card-section -->
 
-    <section class="cards-section" id="offer">
+
+    <div class="cards-section" id="offer">
       <div class="container">
+        <div class="row my-5">
+          <div class="col-md-6 px-5 py-5">
+            <h1>Co nabízím...</h1>
+            <br>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nam quis
+              nulla. Etiam egestas wisi a erat. Nullam faucibus mi quis velit.
+              Mauris suscipit, ligula sit amet pharetra semper, nibh ante cursus
+              purus, vel sagittis velit mauris vel metus. Duis ante orci,
+              molestie vitae vehicula venenatis, tincidunt ac pede. Mauris
+              tincidunt sem sed arcu. Suspendisse nisl. Proin in tellus sit amet
+              nibh dignissim sagittis. Maecenas fermentum, sem in pharetra
+              pellentesque, velit turpis volutpat ante, in pharetra metus odio a
+              lectus. Mauris elementum mauris vitae tortor. Aliquam erat
+              volutpat. Phasellus rhoncus. Duis sapien nunc, commodo et,
+              interdum suscipit, sollicitudin et, dolor. Sed elit dui,
+              pellentesque a, faucibus vel, interdum nec, diam. Praesent in
+              mauris eu tortor porttitor accumsan. Mauris tincidunt sem sed
+              arcu. Quisque porta. Vivamus porttitor turpis ac leo.
+            </p>
+          </div>
+          <div class="col-md-6 px-5 py-5">
+            <img
+              src="images/main/image12.jpeg"
+              alt="carpAngler"
+              id="about-img-1"
+            />
+          </div>
+        </div>
       <div class="row display cards-section-container">
-        <div class="col-lg-4 text-center d-flex justify-content-center">
+        <div class="col-lg-3 text-center d-flex justify-content-center my-5">
           <div class="card" style="width: 18rem">
-            <img src="..." class="card-img-top" alt="..." />
+            <img src="images/main/image3.jpeg" class="card-img-top" alt="..." />
             <div class="card-body">
+              <h4>Example header</h4>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -141,10 +203,23 @@
             </div>
           </div>
         </div>
-        <div class="col-lg-4 text-center d-flex justify-content-center">
+        <div class="col-lg-3 text-center d-flex justify-content-center my-5">
           <div class="card" style="width: 18rem">
-            <img src="..." class="card-img-top" alt="..." />
+            <img src="images/main/image11.jpeg" class="card-img-top" alt="..." />
             <div class="card-body">
+              <h4>Example header</h4>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 text-center d-flex justify-content-center my-5">
+          <div class="card" style="width: 18rem">
+            <img src="images/main/image13.jpeg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h4>Možnost rybolovu na soukromém rybníce</h4>
               <p class="card-text">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
@@ -153,27 +228,27 @@
           </div>
         </div>
       </div>
+        <!-- hire-me-coupon-section -->
+
+    <div class="hire-me-section">
+      <div class="row">
+        <div class="col-12">
+          <img src="images/main/poukaz.jpeg" alt="carpangler" id="coupon-img">
+        </div>
+      </div>
+  </div>
+
     </div>
-    </section>
+    </div>
+    <hr>
 
-    <!-- hire-me-coupon-section -->
-
-    <section class="hire-me-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-12">
-            <img src="images/main/poukaz.jpeg" alt="carpangler" id="coupon-img">
-          </div>
-        </div>
-      </div>
-
-    </section>
+  
 
     <!-- Contact-form-section -->
-    <section class="contact-form-section" id="contact">
+    <div class="contact-form-section" id="contact">
       <div class="form-section-container container">
       <div class="row ">
-        <div class="col-xs-12 rounded">
+        <div class="col-12 rounded">
           <h1 class="text-center font-weight-bold text-dark">Poptej služby</h1>
           <hr class="bg-light" />
           <h5 class="text-center text-success"></h5>
@@ -215,7 +290,7 @@
         </div>
       </div>
     </div>
-    </section>
+    </div>
   </section>
 
     <footer class="bg-dark text-center text-white footer-section-container">
@@ -226,14 +301,14 @@
           <!-- Facebook -->
           <a
             class="btn btn-outline-light btn-floating m-1"
-            href="#!"
+            href="https://www.youtube.com/@RybarenisKubakem"
             role="button"
             ><i class="fab fa-facebook-f"></i
           ></a>
           <!-- Instagram -->
           <a
             class="btn btn-outline-light btn-floating m-1"
-            href="#!"
+            href="https://www.instagram.com/rybareniskubakem/"
             role="button"
             ><i class="fab fa-instagram"></i
           ></a>
